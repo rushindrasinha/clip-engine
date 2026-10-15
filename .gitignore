@@ -6,3 +6,4 @@ lane.log
 __pycache__/
 *.pyc
 .work/
+.gstack/
