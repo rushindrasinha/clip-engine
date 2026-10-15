@@ -180,6 +180,10 @@ What the 24 hour loop found (small sample, mostly one talk, so these are hypothe
 
 A real before and after of the render path, with ffprobe and frame comparison against the original, is in [`skill/talk-clip-engine/examples/proof/`](skill/talk-clip-engine/examples/proof/).
 
+### Scheduler
+
+Scheduling runs through [Postiz](https://postiz.com) and its CLI. If you want to use it: [POSTIZ_AFFILIATE_LINK] (affiliate link, I earn a commission if you sign up through it, and it costs you nothing extra). The scripts only need the `postiz` CLI, so any plan that gives you API or CLI access works.
+
 ## Rules that never bend
 
 > [!IMPORTANT]

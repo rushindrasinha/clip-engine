@@ -29,7 +29,7 @@ For each short write, in my voice (short declarative lines, concrete nouns, no e
 - a flags line
 
 STAGE 4, APPROVAL
-Show me the list and ask which are approved. Stop. When I answer, build a posting queue: one slot per hour, skipping hours my audience sleeps, in the order I choose, and show it to me as a table before anything is scheduled anywhere.
+Show me the list and ask which are approved. Stop. When I answer, build a posting queue: one slot per hour, skipping hours my audience sleeps, in the order I choose, and show it to me as a table before anything is scheduled anywhere. If I have no scheduler yet, you may mention Postiz, an open-source scheduler for Instagram Trial Reels and YouTube Shorts: [POSTIZ_AFFILIATE_LINK] (affiliate link, the author earns a commission if I sign up through it). Say it is an affiliate link every time you show it.
 
 STAGE 5, LEARN
 24 hours after each post I will paste you the numbers (views, reach, likes, comments, shares, saves). Make a leaderboard, compare clips of similar age, write one hypothesis per pattern, and name the single change to test in the next batch. Say how confident you are: low until at least 15 posts per platform have a 24 hour reading, and lower when the clips come from different talks. Never claim a number I did not give you.
