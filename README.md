@@ -29,7 +29,7 @@
 ---
 
 > [!NOTE]
-> **This is not a stream clipper.** It does not find highlights in live streams or VODs from chat spikes or audio peaks. It is for long talking footage you already own (talks, podcasts, interviews, lectures) and it turns it into vertical shorts you approve, schedule and measure.
+> **v1 is for long talking footage you already own** (talks, podcasts, interviews, lectures): it turns it into vertical shorts you approve, schedule and measure. **Live streams and VODs are coming next** (highlight detection from chat spikes, audio peaks and game moments, same approval and pacing rules). See [Roadmap](#roadmap).
 
 ## 30 seconds
 
@@ -101,29 +101,30 @@ Say any of these to your agent:
 | `schedule the approved ones` | queue plan, dry run, then create |
 | `how did the shorts do` | snapshot, leaderboard, learnings draft |
 
-Or run the scripts yourself (all in `skill/talk-clip-engine/scripts/`):
+Or run the scripts yourself. Set `SKILL` to wherever you installed the skill:
 
 ```bash
-cp -r skill/talk-clip-engine/examples/project_template ~/clips/my_talk && cd ~/clips/my_talk
+SKILL=~/.claude/skills/talk-clip-engine            # or <your-workspace>/skills/talk-clip-engine
+cp -r $SKILL/examples/project_template ~/clips/my_talk && cd ~/clips/my_talk
 # edit project.json: source video, credit line, forbidden ranges, word fixes
 
-python3 SKILL/scripts/transcribe.py . --prompt "Speaker Name, Event Name"   # transcript.json
+python3 $SKILL/scripts/transcribe.py . --prompt "Speaker Name, Event Name"   # transcript.json
 # read transcript.md, mine moments, fill shorts.json (see references/mining.md)
-python3 SKILL/scripts/make_short.py . 01 --dry      # cut plan + caption groups, no render
-python3 SKILL/scripts/make_short.py . 01            # render shorts/01_*.mp4
-python3 SKILL/scripts/qa_short.py shorts/01_*.mp4   # ffprobe checks + 6 frames + contact sheet
-python3 SKILL/scripts/sync_check.py shorts/01_*.mp4 # re-transcribe, check caption timing
+python3 $SKILL/scripts/make_short.py . 01 --dry      # cut plan + caption groups, no render
+python3 $SKILL/scripts/make_short.py . 01            # render shorts/01_*.mp4
+python3 $SKILL/scripts/qa_short.py shorts/01_*.mp4   # ffprobe checks + 6 frames + contact sheet
+python3 $SKILL/scripts/sync_check.py shorts/01_*.mp4 # re-transcribe, check caption timing
 ```
 
 Scheduling and learning:
 
 ```bash
 echo '["01","03"]' > approved.json                  # a human wrote this, not a script
-python3 SKILL/scripts/queue_plan.py . --start "2026-10-20 09:00" --tz Asia/Kolkata --quiet 23-06
-python3 SKILL/scripts/postiz_schedule.py . --ig <id> --yt <id>          # dry run
-python3 SKILL/scripts/postiz_schedule.py . --ig <id> --yt <id> --go     # creates the scheduled posts
-python3 SKILL/scripts/snapshot_postiz.py . --ig <id> --yt <id>          # daily, read-only
-python3 SKILL/scripts/learn_report.py snapshots.jsonl                   # leaderboard + learnings draft
+python3 $SKILL/scripts/queue_plan.py . --start "2026-10-20 09:00" --tz Asia/Kolkata --quiet 23-06
+python3 $SKILL/scripts/postiz_schedule.py . --ig <id> --yt <id>          # dry run
+python3 $SKILL/scripts/postiz_schedule.py . --ig <id> --yt <id> --go     # creates the scheduled posts
+python3 $SKILL/scripts/snapshot_postiz.py . --ig <id> --yt <id>          # daily, read-only
+python3 $SKILL/scripts/learn_report.py snapshots.jsonl                   # leaderboard + learnings draft
 ```
 
 ## How it works
@@ -198,6 +199,11 @@ Scheduling runs through [Postiz](https://postiz.com) and its CLI. If you want to
 - **Never invent words.** Titles and captions quote the speaker. Sensitive claims get a flag, not a rewrite.
 - **Fix names before rendering**, not after posting.
 - **Say how confident you are.** Low until at least 15 posts per platform have a 24 hour reading.
+
+## Roadmap
+
+- **Live streams and VODs (coming next).** Find the moments in hours of stream footage from chat velocity, audio peaks and game events, then run them through the same pipeline: vertical reframe, captions, QA, your approval, one post an hour. It ships when it has a real run with real numbers behind it, like v1 did.
+- Multi-speaker podcasts: speaker-aware framing for two-shot and split-screen footage.
 
 ## Files
 
