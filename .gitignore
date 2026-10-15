@@ -1,0 +1,8 @@
+launch/
+SCRUB_REPORT.md
+BRIEF.md
+lane.log
+.DS_Store
+__pycache__/
+*.pyc
+.work/

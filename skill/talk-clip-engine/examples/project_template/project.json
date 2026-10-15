@@ -1,0 +1,23 @@
+{
+ "source": "talk.mp4",
+ "transcript": "transcript.json",
+ "credit": "Speaker Name \u00b7 Event Name",
+ "forbidden": [],
+ "word_fix": {},
+ "keep_together": [],
+ "tracker": {
+  "mode": "opencv"
+ },
+ "brand": {
+  "highlight": [
+   255,
+   230,
+   0
+  ],
+  "emphasis": [
+   57,
+   255,
+   90
+  ]
+ }
+}

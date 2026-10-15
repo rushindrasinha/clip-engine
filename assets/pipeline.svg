@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="980" viewBox="0 0 2000 980">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071a1f"/><stop offset="1" stop-color="#0e2a2c"/></linearGradient></defs>
+<rect width="2000" height="980" rx="28" fill="url(#bg)"/>
+<text x="80" y="110" font-family="Inter, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#f2f6ef" letter-spacing="-2">The 10 steps</text>
+<text x="82" y="160" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28" fill="#b9cfc9">One long video in. Approved shorts out. Then it learns.</text>
+<rect x="80" y="230" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="140" cy="294" r="34" fill="#c6f432"/>
+<text x="140" y="308" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">1</text>
+<text x="104" y="380" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Find raw material</text>
+<text x="104" y="430" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">a talk, a podcast,</text>
+<text x="104" y="468" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">a long call you own</text>
+<path d="M416 294 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="446" y="230" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="506" cy="294" r="34" fill="#c6f432"/>
+<text x="506" y="308" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">2</text>
+<text x="470" y="380" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Transcribe locally</text>
+<text x="470" y="430" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">Whisper, word-level</text>
+<text x="470" y="468" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">timestamps</text>
+<path d="M782 294 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="812" y="230" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="872" cy="294" r="34" fill="#c6f432"/>
+<text x="872" y="308" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">3</text>
+<text x="836" y="380" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Mine the moments</text>
+<text x="836" y="430" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">hooks, ranges, flags,</text>
+<text x="836" y="468" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">forbidden footage</text>
+<path d="M1148 294 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="1178" y="230" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="1238" cy="294" r="34" fill="#c6f432"/>
+<text x="1238" y="308" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">4</text>
+<text x="1202" y="380" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Recut on the hook</text>
+<text x="1202" y="430" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">strongest line in</text>
+<text x="1202" y="468" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">the first 2 seconds</text>
+<path d="M1514 294 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="1544" y="230" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="1604" cy="294" r="34" fill="#c6f432"/>
+<text x="1604" y="308" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">5</text>
+<text x="1568" y="380" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Jump cuts</text>
+<text x="1568" y="430" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">drop silence and filler,</text>
+<text x="1568" y="468" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">never reorder words</text>
+<rect x="80" y="570" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="140" cy="634" r="34" fill="#c6f432"/>
+<text x="140" y="648" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">6</text>
+<text x="104" y="720" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Go vertical</text>
+<text x="104" y="770" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">face-tracked 9:16,</text>
+<text x="104" y="808" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">punch-ins</text>
+<path d="M416 634 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="446" y="570" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="506" cy="634" r="34" fill="#c6f432"/>
+<text x="506" y="648" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">7</text>
+<text x="470" y="720" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Caption + title</text>
+<text x="470" y="770" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">word-by-word captions,</text>
+<text x="470" y="808" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">hook title band</text>
+<path d="M782 634 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="812" y="570" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="872" cy="634" r="34" fill="#c6f432"/>
+<text x="872" y="648" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">8</text>
+<text x="836" y="720" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">QA + audio</text>
+<text x="836" y="770" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">6 frames looked at,</text>
+<text x="836" y="808" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">sync check, loudnorm</text>
+<path d="M1148 634 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="1178" y="570" width="330" height="300" rx="20" fill="#0b2428" stroke="#ff6b57" stroke-width="4"/>
+<circle cx="1238" cy="634" r="34" fill="#ff6b57"/>
+<text x="1238" y="648" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">9</text>
+<text x="1202" y="720" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Human approves</text>
+<text x="1202" y="770" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">nothing is queued</text>
+<text x="1202" y="808" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">until a person says yes</text>
+<path d="M1514 634 h24" stroke="#c6f432" stroke-width="4" stroke-linecap="round"/>
+<rect x="1544" y="570" width="330" height="300" rx="20" fill="#0b2428" stroke="#26474a" stroke-width="2"/>
+<circle cx="1604" cy="634" r="34" fill="#c6f432"/>
+<text x="1604" y="648" text-anchor="middle" font-family="Inter, Helvetica, Arial, sans-serif" font-size="38" font-weight="800" fill="#071a1f">10</text>
+<text x="1568" y="720" font-family="Inter, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f2f6ef">Pace + learn</text>
+<text x="1568" y="770" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">one post an hour,</text>
+<text x="1568" y="808" font-family="Inter, Helvetica, Arial, sans-serif" font-size="25" fill="#b9cfc9">24h numbers feed back</text>
+<path d="M1709 530 v20 H245 v20" stroke="#c6f432" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="80" y="940" font-family="SFMono-Regular, Menlo, monospace" font-size="22" fill="#c6f432">red = the human gate. nothing posts without it.</text>
+</svg>

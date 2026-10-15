@@ -1,0 +1,31 @@
+{
+ "source": "talk.mp4",
+ "transcript": "transcript.json",
+ "credit": "Dr Rushindra Sinha \u00b7 Jai Hind College",
+ "forbidden": [
+  [
+   112,
+   268
+  ],
+  [
+   1745,
+   1970
+  ]
+ ],
+ "word_fix": {
+  "price": "prize",
+  "jayhand": "Jai Hind",
+  "jaihind": "Jai Hind",
+  "lolls": "LoLzZz",
+  "bgmi": "BGMI",
+  "kari": "Carry",
+  "minati": "Minati",
+  "e-sports": "esports"
+ },
+ "keep_together": [
+  "Jai Hind"
+ ],
+ "tracker": {
+  "mode": "vision"
+ }
+}

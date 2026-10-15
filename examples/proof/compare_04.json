@@ -1,0 +1,22 @@
+{
+ "original_first_worker_render": {
+  "video": "h264 1080x1920 25/1fps",
+  "audio": "aac",
+  "duration_s": 22.92,
+  "size_mb": 13.8
+ },
+ "talk_clip_engine_render": {
+  "video": "h264 1080x1920 25/1fps",
+  "audio": "aac",
+  "duration_s": 22.92,
+  "size_mb": 13.8
+ },
+ "psnr_db_at_seconds": {
+  "0.5": null,
+  "4": 38.2,
+  "8": 38.0,
+  "12": 37.1,
+  "16": 37.7,
+  "20": 37.2
+ }
+}
